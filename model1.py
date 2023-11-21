@@ -14,9 +14,7 @@ def model1():
     model.eval()
 
     # Labels for your specific task
-    labels = ["anger", "annoyance", "neutral", "disgust", "sadness",
-              "fear", "caring",
-              "love", "joy"]  # Replace with your actual label names
+    labels = ["anger", "fear", "joy"]  # Replace with your actual label names
 
     # Streamlit app
     user_input = st.text_area("Enter text for analysis:")
