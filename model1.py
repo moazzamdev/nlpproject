@@ -5,7 +5,7 @@ import pandas as pd
 
 def model1():
     # Your Model 1 code here
-    st.subheader("Model 2 Analysis")
+    st.subheader("Emotion Analysis")
     model_path = "mymodel.pth"  # Replace with the actual path to your trained model
     tokenizer = RobertaTokenizer.from_pretrained(model_path)
     model = RobertaForSequenceClassification.from_pretrained(model_path)
