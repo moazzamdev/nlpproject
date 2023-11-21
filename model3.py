@@ -31,7 +31,7 @@ def model3():
 
     # Streamlit app
     
-
+    st.subheader("Emotion Analysis")
     # User input for prediction
     user_input = st.text_area("Enter a sentence:")
 
